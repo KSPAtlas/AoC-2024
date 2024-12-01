@@ -14,3 +14,4 @@ main = do
       total = sum differences
 
   putStrLn $ "The toal sum is " ++ show total
+  hClose handle
